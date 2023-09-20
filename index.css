@@ -1,0 +1,39 @@
+p {
+    font-size: 150%;
+   margin-right: 200px; /* */
+    margin-left: 200px;
+}   
+img 
+{
+width: 400px;
+margin-left: 546px;
+margin-right: 200px;
+}
+
+iframe
+{
+margin-left: 410px;
+margin-right: 200px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  img {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+   img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+   img:hover {
+    transform: scale(1.6); /* Увеличиваем масштаб */
+  }
+  body{
+    background-color:rgba(238, 255, 0, 0.658);
+  }
+ 
+
